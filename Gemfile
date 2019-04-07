@@ -17,6 +17,7 @@ gem 'devise'
 gem 'bootsnap', require: false
 
 group :development, :test do
+  gem 'letter_opener'
   # Call 'pry' anywhere in the code to stop execution and get a debugger console
   gem 'pry'
 end
